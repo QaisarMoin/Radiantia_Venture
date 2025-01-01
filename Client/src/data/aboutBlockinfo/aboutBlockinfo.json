@@ -1,0 +1,17 @@
+[
+  {
+    "step": "Free Shipping",
+    "title": "World wide",
+    "icon": "icon-shipping"
+  },
+  {
+    "step": "Helpline",
+    "title": "+91 9131356954 ",
+    "icon": "icon-helpline"
+  },
+  {
+    "step": "Customer Support",
+    "title": "Finish!",
+    "icon": "icon-24"
+  }
+]

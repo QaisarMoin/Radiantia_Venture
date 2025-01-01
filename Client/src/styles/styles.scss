@@ -1,0 +1,15 @@
+// Local files imported using @use
+@use 'base/reset';
+@use 'base/fonts';
+@use 'components/jquery.formstyler';
+@use 'components/ion.rangeSlider.min';
+@use 'components/slick';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/content';
+
+@use './utils/variables';
+@use './utils/mixins';
+
+// Google Fonts URL (can stay the same)
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
