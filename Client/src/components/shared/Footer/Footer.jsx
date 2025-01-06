@@ -1,6 +1,6 @@
 import footerNavData from '../../../data/footer/footerNav.json';
 import paymentMethodData from '../../../data/footer/payment.json';
-import socialData from '../../../data/social';
+import socialData from '../../../data/social/index.json';
 import {Link} from 'react-router-dom';
 import { NavCol } from './NavCol/NavCol';
 
@@ -76,7 +76,7 @@ export const Footer = () => {
           </div>
           <div className='footer-copy'>
             <span>&copy; All rights reserved. Doaguru2024</span>
-            <Link to={"/RadiantiaAdminPanelDoaguru"}><span>&copy; All rights reserved. Radiantia Venture Pvt. Ltd.</span></Link>
+            <Link><span>&copy; All rights reserved. Radiantia Venture Pvt. Ltd.</span></Link>
           </div>
         </div>
       </footer>

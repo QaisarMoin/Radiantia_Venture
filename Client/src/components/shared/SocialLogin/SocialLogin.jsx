@@ -8,7 +8,7 @@ export const SocialLogin = () => {
       </li>
       <li>
         <a href='#'>
-          <i className='icon-twitter'></i>
+          <i className='icon-insta'></i>
         </a>
       </li>
       <li>

@@ -15,6 +15,7 @@ import FaqPage from "../pages/faq";
 import CartPage from "../pages/cart";
 import { ProductDetails } from "../components/Product/ProductDetails/ProductDetails";
 import ProductPage from "../pages/product";
+import WishlistPage from "../pages/wishlist";
 
 
 export const AllWebsiteRoute = () => {
@@ -26,7 +27,7 @@ export const AllWebsiteRoute = () => {
       <Route path="/about" element={<AboutPage/>} />
       {/* <Route path='/Blog' element={<Blogs/>} /> */}
       <Route path='/Blog' element={<BlogPage/>} />
-      {/* <Route path='/Shop by Category' element={<Shop/>} /> */}
+      <Route path='/wishlist' element={<WishlistPage/>} />
       <Route path='/faq' element={<FaqPage/>} />
       <Route path='/contact' element={<ContactPage/>} />
       <Route path='/categories' element={<CategoriesPage/>} />

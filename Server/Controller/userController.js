@@ -19,6 +19,8 @@ exports.getUserInfo = async (req, res) => {
         u.email, 
         u.mobile_no, 
         u.profile_img, 
+        u.status,
+        u.custom_id, 
         i.company_promotion, 
         i.direct_income, 
         i.level_income, 
@@ -56,7 +58,7 @@ exports.getUserReferrals = async (req, res) => {
 
   try {
     const referrals = await query(
-      `SELECT r.id, r.referred_user_id, r.referral_income, u.name AS referred_user_name
+      `SELECT r.id, r.user_id ,r.referred_user_id, r.referral_income, u.name AS referred_user_name
        FROM referrals r
        JOIN users u ON r.referred_user_id = u.id
        WHERE r.user_id = ?`,
@@ -97,7 +99,7 @@ exports.getReferralLink = (req, res) => {
 
   try {
     // Generate the referral link
-    const referralLink = `https://rmpl.net.in/register?referralId=${userId}`;
+    const referralLink = `https://rmpl.net.in/register?referralId=${userId}/user-registration`;
     
     res.json({ referralLink });
   } catch (err) {
@@ -105,9 +107,6 @@ exports.getReferralLink = (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 };
-
-
-
 
 exports.updatePromotion = async(req, res) => {
   const { userId, selectedPlatforms } = req.body; // Expect user ID and platforms from frontend

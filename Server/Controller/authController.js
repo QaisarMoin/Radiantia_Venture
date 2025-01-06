@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const db = require('../Config/DB');
 const util = require('util');
+const moment = require('moment');
  db.query = util.promisify(db.query).bind(db);
 
 // Registration
@@ -58,8 +59,19 @@ exports.register = async (req, res) => {
         );
 
         const newUserId = result?.insertId; // Get the new user ID
-        console.log('New User ID:', newUserId);
-        console.log('Referral ID:', referralId);
+        // console.log('New User ID:', newUserId);
+        // console.log('Referral ID:', referralId);
+
+
+        // Generate custom ID in the format RMPL-TODAYDATE-ID
+        const todayDate = moment().format('YYYY-MM-DD');
+        const customId = `RMPL${todayDate}${newUserId}`;
+
+        // Update the new user with the custom ID
+        await db.query(
+            `UPDATE users SET custom_id = ? WHERE id = ?`,
+            [customId, newUserId]
+        );
 
         // If referralId exists, save referral data
         if (referralId) {
@@ -68,7 +80,6 @@ exports.register = async (req, res) => {
                 [referralId, newUserId]
             );
         }
-
         // Generate JWT for the newly registered user
         const token = jwt.sign({ id: newUserId, email }, process.env.JWT_SECRET, {
             expiresIn: '1h',

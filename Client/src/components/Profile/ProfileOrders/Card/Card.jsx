@@ -41,12 +41,12 @@ export const Card = ({ order, index, onCollapse, active }) => {
             {orderItems.map((item, index) => (
               <li key={index}>
                 {item.name}
-                <span>${item.price}</span>
+                <span>₹{item.price}</span>
               </li>
             ))}
             <li>
               Payment Methods:
-              <span>Сredit card: **** **** **** 1633</span>
+              <span>Online</span>
             </li>
           </ul>
         </div>
