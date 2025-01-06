@@ -1,4 +1,4 @@
-import productData from 'data/product/product';
+import productData from '../../data/product/product';
 import { Card } from './Card/Card';
 import {Link} from 'react-router-dom';
 

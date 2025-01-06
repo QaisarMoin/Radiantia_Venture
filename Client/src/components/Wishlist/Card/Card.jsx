@@ -20,7 +20,7 @@ export const Card = ({ wish }) => {
           </div>
         </div>
         <div className='cart-table__col'>
-          <span className='cart-table__price'>${price}</span>
+          <span className='cart-table__price'>₹{price}</span>
         </div>
         <div className='cart-table__col'>
           {isStocked ? (

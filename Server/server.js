@@ -7,6 +7,7 @@ const cors = require('cors');
 // Route imports
 const authRoutes = require('./Routes/authRoute');
 const userRoutes = require('./Routes/ClientRoute/userRoute');
+const adminRoutes = require('./Routes/AdminRoutes/adminRoute');
 const { checkBlacklist } = require('./Controller/authController');
 
 dotenv.config();
@@ -23,6 +24,7 @@ app.use(checkBlacklist); // Apply blacklist check middleware
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Error handling
 app.use((err, req, res, next) => {

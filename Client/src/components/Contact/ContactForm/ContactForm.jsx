@@ -14,7 +14,7 @@ export const ContactFrom = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/api/user/Contact/form', {
+      const response = await fetch('https://rmpl.net.in/api/user/Contact/form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { ProfileAside } from './ProfileAside/ProfileAside';
 import { ProfileOrders } from './ProfileOrders/ProfileOrders';
 import MyInfo from './MyInfo';
+import { Wishlist } from '../Wishlist/Wishlist';
 
 export const Profile = () => {
-  const [activeTab, setActiveTab] = useState('orders');
+  const [activeTab, setActiveTab] = useState('myInfo');
   const userID = localStorage.getItem('userId');
   return (
     <>
@@ -17,16 +18,16 @@ export const Profile = () => {
               <div className='tab-wrap'>
                 <ul className='nav-tab-list tabs'>
                   <li
-                    onClick={() => setActiveTab('myInfo')}
-                    className={activeTab === 'myInfo' ? 'active' : ''}
-                  >
-                    My info
-                  </li>
-                  <li
                     onClick={() => setActiveTab('orders')}
                     className={activeTab === 'orders' ? 'active' : ''}
                   >
                     My orders
+                  </li>
+                  <li
+                    onClick={() => setActiveTab('myInfo')}
+                    className={activeTab === 'myInfo' ? 'active' : ''}
+                  >
+                    My info
                   </li>
                   <li
                     onClick={() => setActiveTab('wishList')}
@@ -37,22 +38,18 @@ export const Profile = () => {
                 </ul>
 
                 <div className='box-tab-cont'>
-                  {activeTab === 'myInfo' && (
+                  {activeTab === 'orders' && (
                     <div className='tab-cont' id='profile-tab_1'>
-            
-                      <MyInfo userId={userID}/>
+
+                      <ProfileOrders />
                     </div>
                   )}
 
-                  {activeTab === 'orders' && <ProfileOrders />}
+                  {activeTab === 'myInfo' && <MyInfo userId={userID} />}
 
                   {activeTab === 'wishList' && (
                     <div className='tab-cont' id='profile-tab_3'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cumque tempore saepe blanditiis omnis. Reprehenderit
-                      officia atque facere tempora, neque quaerat et aliquid
-                      tempore mollitia, nemo, minima iste placeat cupiditate
-                      odio?
+                      <Wishlist />
                     </div>
                   )}
                 </div>

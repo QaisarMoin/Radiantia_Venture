@@ -34,8 +34,8 @@ const MyInfo = ({ userId }) => {
     fetchUserInfo();
   }, [userId]);
 
-  console.log(userInfo, 'check data a raha he ya nhi ');
-  console.log(referrals, 'check data a raha he ya nhi ');
+  // console.log(userInfo, 'check data a raha he ya nhi ');
+  // console.log(referrals, 'check data a raha he ya nhi ');
 
   useEffect(() => {
     // Fetch referral link from the backend
@@ -55,13 +55,20 @@ const MyInfo = ({ userId }) => {
   const togglePromotion = () => {
     setShowPromotion(!showPromotion);
   }
-
+//  console.log(userInfo.status, "status");
+ 
 
   if (loading) return <p>Loading...</p>;
 
   return (
     <div className="my-info">
       <h2>My Info</h2>
+      <div>
+        <p>ID: {userInfo?.custom_id || 'N/A'}</p>
+      </div>
+      <div>
+        <p>You are connected with us through their reference.: {"RMPL"  + referrals.map((ref) => ref.user_id) || 'N/A'}</p>
+      </div>
       <div>
         <ProfileCard
           name={userInfo?.name || 'Hello User'}
@@ -134,7 +141,7 @@ const MyInfo = ({ userId }) => {
         </div>
       </div>
       <br />
-      <div className="referral-info">
+      {/* <div className="referral-info">
         <h3>Referrals</h3>
         <div>
           <h3>Refer and Earn</h3>
@@ -152,7 +159,33 @@ const MyInfo = ({ userId }) => {
         ) : (
           <p>No referrals yet.</p>
         )}
-      </div>
+      </div> */}
+        <h3>Referrals</h3>
+    {(userInfo.status === 'approved') && (
+  <div className="referral-info">
+  
+    <div>
+      <h3>Refer and Earn</h3>
+      <input type="text" value={referralLink} readOnly />
+      <button onClick={copyToClipboard}>Copy Link</button>
+    </div>
+    {referrals.length > 0 ? (
+      <ul>
+        {referrals.map((ref) => (
+          <li key={ref.id}>
+            <strong>Name:</strong> {ref.referred_user_name} | <strong>ID:</strong> {ref.referred_user_id}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No referrals yet.</p>
+    )}
+  </div>
+) || (
+  <div className="referral-info">
+    <p>Wait for admin approval</p>
+  </div>
+)}
     </div>
   );
 };

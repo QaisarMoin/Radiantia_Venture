@@ -91,7 +91,7 @@ export const PostContent = ({ blog }) => {
               </li>
               <li>
                 <a href='#/'>
-                  <i className='icon-twitter'></i>
+                  <i className='icon-youtube'></i>
                 </a>
               </li>
               <li>

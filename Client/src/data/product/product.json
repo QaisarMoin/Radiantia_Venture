@@ -1,8 +1,8 @@
 [
   {
     "name": "RADI - NOVA Extract",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "950",
+    "price": "949",
     "id": "12132klj2322",
     "isSale": true,
     "isNew": false,
@@ -60,8 +60,8 @@
   },
   {
     "name": "TROPICAL REFRESHING FACE WASH",
-    "oldPrice": "149.50",
-    "price": "100.90",
+    "oldPrice": "250",
+    "price": "249",
     "id": "12132klj1213",
     "isSale": true,
     "isNew": false,
@@ -121,10 +121,10 @@
   },
   {
     "name": "Gulf Ocean Body Mist UNISEX",
-    "oldPrice": "549.95",
-    "price": "200.95",
+    "oldPrice": "250",
+    "price": "249",
     "id": "12132klj232453",
-    "isSale": false,
+    "isSale": true,
     "isNew": true,
     "image": "/assets/img/product-img3.jpg",
     "category": "nail",
@@ -180,8 +180,8 @@
   },
   {
     "name": "ALOE-VERA SKIN GEL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "270",
+    "price": "269",
     "id": "12132klj2121212",
     "isSale": true,
     "isNew": false,
@@ -238,9 +238,9 @@
     ]
   },
   {
-    "name": "NONI Plus",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "NONI Plus Juice",
+    "oldPrice": "1200",
+    "price": "1199",
     "id": "12132klj24444",
     "isSale": true,
     "isNew": false,
@@ -298,8 +298,8 @@
   },
   {
     "name": "18 HERBS HAIR OIL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "380",
+    "price": "379",
     "id": "12132klj2322321",
     "isSale": true,
     "isNew": true,
@@ -357,8 +357,8 @@
   },
   {
     "name": "ALOE-VERA SKIN GEL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "270",
+    "price": "269",
     "id": "12132klj2121213",
     "isSale": false,
     "isNew": true,
@@ -415,9 +415,9 @@
     ]
   },
   {
-    "name": "NONI Plus",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "NONI Plus Juice",
+    "oldPrice": "1200",
+    "price": "1199",
     "id": "12132klj24445",
     "isSale": false,
     "isNew": true,
@@ -475,8 +475,8 @@
   },
   {
     "name": "18 HERBS HAIR OIL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "380",
+    "price": "379",
     "id": "12132klj23223233",
     "isSale": true,
     "isNew": false,
@@ -535,8 +535,8 @@
 
   {
     "name": "ALOE-VERA SKIN GEL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "270",
+    "price": "269",
     "id": "12132klj212152",
     "isSale": true,
     "isNew": true,
@@ -593,9 +593,9 @@
     ]
   },
   {
-    "name": "NONI Plus",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "NONI Plus Juice",
+    "oldPrice": "1200",
+    "price": "1199",
     "id": "12132klj244000",
     "isSale": true,
     "isNew": true,
@@ -653,8 +653,8 @@
   },
   {
     "name": "18 HERBS HAIR OIL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "380",
+    "price": "379",
     "id": "12132klj23223766d",
     "isSale": false,
     "isNew": true,
@@ -713,8 +713,8 @@
 
   {
     "name": "18 HERBS HAIR OIL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "380",
+    "price": "379",
     "id": "121asdglj23223233",
     "isSale": true,
     "isNew": false,
@@ -773,8 +773,8 @@
 
   {
     "name": "ALOE-VERA SKIN GEL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "270",
+    "price": "269",
     "id": "12132klqrt12152",
     "isSale": true,
     "isNew": true,
@@ -831,9 +831,9 @@
     ]
   },
   {
-    "name": "NONI Plus",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "NONI Plus Juice",
+    "oldPrice": "1200",
+    "price": "1199",
     "id": "12132klj223ssx00",
     "isSale": true,
     "isNew": true,
@@ -891,8 +891,8 @@
   },
   {
     "name": "18 HERBS HAIR OIL",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "oldPrice": "380",
+    "price": "379",
     "id": "12132klj23w22766d",
     "isSale": false,
     "isNew": true,
@@ -918,6 +918,124 @@
     ],
     "content": "Radiantia Venture's 18 Herbs Hair Oil is a powerful blend of 18 natural herbs that nourish and strengthen your hair. This oil helps to improve scalp health, reduce hair fall, and promote thicker, healthier hair.",
     "description": "Radiantia Venture's 18 Herbs Hair Oil is a unique blend of 18 herbal ingredients that deeply nourish your hair and scalp. It helps reduce hair fall, promotes hair growth, and restores natural shine. Ideal for all hair types, this oil is packed with nature’s goodness for healthier, stronger hair.",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Melissa Jones"
+        },
+        "reviewDate": "July 23, 2020",
+        "rating": 4,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author3.jpg",
+          "name": "Amanda Clement"
+        },
+        "reviewDate": "June 15, 2020",
+        "rating": 5,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you). I am grateful to the employees of BeShop for the quality products."
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Steve Gentley"
+        },
+        "reviewDate": "July 05, 2020",
+        "rating": 5,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you"
+      }
+    ]
+  },
+  {
+    "name": "Insta WHite Cream",
+    "oldPrice": "350",
+    "price": "349",
+    "id": "12132klj23w2ksh44",
+    "isSale": true,
+    "isNew": true,
+    "image": "/assets/img/product-img8.jpg",
+    "category": "skin",
+    "filterItems": ["makeup", "skin", "perfume", "hair"],
+    "isStocked": true,
+    "productNumber": "IN1218",
+    "imageGallery": [
+      "/assets/img/product-img8.jpg",
+      "/assets/img/product-img8.jpg",
+      "/assets/img/product-img8.jpg",
+      "/assets/img/product-img8.jpg",
+      "/assets/img/product-img8.jpg"
+    ],
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Radiantia Venture's 18 Herbs Hair Oil is a powerful blend of 18 natural herbs that nourish and strengthen your hair. This oil helps to improve scalp health, reduce hair fall, and promote thicker, healthier hair.",
+    "description": "Radiantia Venture's 18 Herbs Hair Oil is a unique blend of 18 herbal ingredients that deeply nourish your hair and scalp. It helps reduce hair fall, promotes hair growth, and restores natural shine. Ideal for all hair types, this oil is packed with nature’s goodness for healthier, stronger hair.",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Melissa Jones"
+        },
+        "reviewDate": "July 23, 2020",
+        "rating": 4,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author3.jpg",
+          "name": "Amanda Clement"
+        },
+        "reviewDate": "June 15, 2020",
+        "rating": 5,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you). I am grateful to the employees of BeShop for the quality products."
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Steve Gentley"
+        },
+        "reviewDate": "July 05, 2020",
+        "rating": 5,
+        "content": "I am grateful to the employees of BeShop for the quality products that I have been using for more than a year, try to work at this level in the future. Thank you"
+      }
+    ]
+  },
+  {
+    "name": "DAILY CLEANSHING SHAMPOO WITH CONDITIONER",
+    "oldPrice": "380",
+    "price": "379",
+    "id": "12132klj23w22766d",
+    "isSale": false,
+    "isNew": true,
+    "image": "/assets/img/product-img7.jpg",
+    "category": "skin",
+    "filterItems": [ "hair"],
+    "isStocked": true,
+    "productNumber": "IN1203",
+    "imageGallery": [
+      "/assets/img/product-img7.jpg",
+      "/assets/img/product-img7.jpg",
+      "/assets/img/product-img7.jpg",
+      "/assets/img/product-img7.jpg",
+      "/assets/img/product-img7.jpg"
+    ],
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Radiantia Venture's Daily Cleansing Shampoo with Conditioner (200ml) enriched with Neem, Tulsi, Argan, and Shea Butter. Soap and Paraben-Free formula for gentle care.",
+    "description": "This Daily Cleansing Shampoo with Conditioner is designed to cleanse, clear, and care for your hair. Infused with the goodness of Neem, Tulsi, Argan, and Shea Butter, it nourishes your scalp while promoting healthy hair. Its soap and paraben-free formula makes it suitable for daily use, ensuring soft, manageable hair without harmful chemicals. Perfect for all hair types!",
     "reviews": [
       {
         "author": {
